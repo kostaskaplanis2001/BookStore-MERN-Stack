@@ -16,6 +16,7 @@ const Home = () => {
             .then((response) => {
                 setBooks(response.data.data);
                 setLoading(false);
+                console.log(response.data.data);
             })
             .catch((error) => {
                 console.log(error);
@@ -61,7 +62,7 @@ const Home = () => {
                                 </td>
                                 <td className="border border-slate-700 rounded-md text-center">
                                     <div className="flex justify-center gap-x-4">
-                                        <Link to={`/books/details/${books._id}`}>
+                                        <Link to={`/books/details/${book._id}`}>
                                             <BsInfoCircle className='text-2xl text-green-800' />
                                         </Link>
                                         <Link to={`/books/edit/${book._id}`}>
