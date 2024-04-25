@@ -18,3 +18,9 @@ Here's a quick overview of the topics covered in this crash course:
 - MongoDB operations
 - Frontend CRUD
 - Frontend Router
+
+## Demo
+Watch a demonstration of the MERN stack application in action:
+
+[Demo here!](https://github.com/kostaskaplanis2001/BookStore-MERN-Stack/assets/84383274/b77f315f-4d5b-4316-99d1-9ca0b06c4dea)
+
