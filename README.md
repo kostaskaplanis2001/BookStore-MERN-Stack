@@ -59,7 +59,7 @@ To run this project locally, follow these steps:
 
 7. Start the frontend server:
     ```
-    npm start
+    npm run dev
     ```
 
 Once both the backend and frontend servers are running, you can access the application in your web browser at http://localhost:3000.
